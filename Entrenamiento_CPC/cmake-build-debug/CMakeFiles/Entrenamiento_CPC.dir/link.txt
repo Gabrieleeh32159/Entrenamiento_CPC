@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Entrenamiento_CPC.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\Entrenamiento_CPC.dir/objects.a @CMakeFiles\Entrenamiento_CPC.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Entrenamiento_CPC.dir/objects.a -Wl,--no-whole-archive -o Entrenamiento_CPC.exe -Wl,--out-implib,libEntrenamiento_CPC.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Entrenamiento_CPC.dir\linklibs.rsp
