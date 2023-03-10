@@ -1,15 +1,11 @@
 #include <iostream>
+#include <vector>
 #include <string>
-#include <math.h>
 #define LL long long
 
 using namespace std;
 
-int main(){
-    int t = 1;
-    //cin >> t;
-    while(t--){
-
-    }
+int main() {
+    
     return 0;
 }
