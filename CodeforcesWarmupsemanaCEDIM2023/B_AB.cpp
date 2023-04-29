@@ -1,3 +1,5 @@
+// time-limit: 2000
+// problem-url: https://codeforces.com/group/Wr3hh4fy7t/contest/441024/problem/B
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -16,13 +18,16 @@ void barra(){ cout<<"----------------------"<<'\n'; }
  
  
 void solve(){
-    
+  int a,b;
+  string exp;
+  cin >> exp;
+  cout << (int)exp[0] + (int)exp[2] - 2*(int)'0' << endl;
 }
  
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     int t=1;
-    //cin>>t;
+    cin>>t;
     while(t--) solve(); 
 }

@@ -1,3 +1,5 @@
+// time-limit: 2000
+// problem-url: https://vjudge.net/contest/553531#problem/H
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -16,7 +18,16 @@ void barra(){ cout<<"----------------------"<<'\n'; }
  
  
 void solve(){
-    
+    string s, t;
+    cin >> s;
+    cin >> t;
+    l ans = 0;
+    for (l i = 0; i < s.size(); i++) {
+        if (s[i] != t[i]) {
+            ans++;
+        }
+    }
+    cout << ans << endl;
 }
  
 int main(){

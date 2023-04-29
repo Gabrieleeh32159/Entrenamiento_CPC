@@ -1,3 +1,5 @@
+// time-limit: 2000
+// problem-url: https://vjudge.net/contest/553531#problem/A
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -16,7 +18,11 @@ void barra(){ cout<<"----------------------"<<'\n'; }
  
  
 void solve(){
-    
+    long double l, r, d; cin >> l >> r >> d;
+
+    int ans = int(r / d) - int ((l-1) /d );
+
+    cout << ans << endl;
 }
  
 int main(){

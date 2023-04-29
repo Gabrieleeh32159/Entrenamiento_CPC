@@ -1,3 +1,5 @@
+// time-limit: 2000
+// problem-url: https://vjudge.net/contest/554861#problem/E
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;

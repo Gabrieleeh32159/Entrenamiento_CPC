@@ -1,3 +1,6 @@
+// time-limit: 2000
+// problem-url: https://vjudge.net/contest/554861#problem/A
+#include <algorithm>
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -16,7 +19,21 @@ void barra(){ cout<<"----------------------"<<'\n'; }
  
  
 void solve(){
-    
+  int n, m; cin >> n >> m;
+  vector<l> a(n);
+  for (int i = 0; i < n; i++) {
+    cin >> a[i];
+  }
+  sort(a.begin(), a.end());
+  l b;
+  for (int i = 0; i < m; i++) {
+    cin >> b;
+    cout << upper_bound(a.begin(), a.end(), b) - a.begin() << " ";
+  }
+  
+    cout << endl;
+
+
 }
  
 int main(){

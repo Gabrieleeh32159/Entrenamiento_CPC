@@ -1,3 +1,5 @@
+// time-limit: 2000
+// problem-url: https://vjudge.net/contest/553531#problem/Y
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -16,7 +18,20 @@ void barra(){ cout<<"----------------------"<<'\n'; }
  
  
 void solve(){
-    
+    int n, k;
+    cin >> n >> k;
+    ll sum = 0;
+    int a;
+    while (n--) {
+        cin >> a;
+        if (k != 0) {
+            sum -= a;
+            k--;
+        } else {
+            sum += a;
+        }
+    }
+    cout << sum << endl;
 }
  
 int main(){

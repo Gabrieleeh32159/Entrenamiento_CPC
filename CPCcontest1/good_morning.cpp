@@ -16,7 +16,18 @@ void barra(){ cout<<"----------------------"<<'\n'; }
  
  
 void solve(){
-    
+    int a,b , c, d; cin >> a >> b >> c >> d;
+
+    //the moment takahashi woke up
+    // A hrs + B min
+    //Aoki 
+    // C hrs + D min + 1 s
+
+    if (a < c || (a == c && d >= b)) {
+        cout << "Takahashi" << endl;
+    } else {
+        cout << "Aoki" << endl;
+    }
 }
  
 int main(){

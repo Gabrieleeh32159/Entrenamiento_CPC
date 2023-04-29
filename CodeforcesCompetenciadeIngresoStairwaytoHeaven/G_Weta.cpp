@@ -1,3 +1,5 @@
+// time-limit: 1000
+// problem-url: https://codeforces.com/gym/435493/problem/G
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;

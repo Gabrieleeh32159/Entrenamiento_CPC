@@ -1,3 +1,5 @@
+// time-limit: 1000
+// problem-url: https://codeforces.com/group/Wr3hh4fy7t/contest/440894/problem/C
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -16,7 +18,16 @@ void barra(){ cout<<"----------------------"<<'\n'; }
  
  
 void solve(){
-    
+    int n; cin >> n;
+    vector<int> nums(n);
+    int result;
+    cin >> result;
+    l number;
+    for (int i=1; i < n; i++) {
+        cin >> number;
+        result = gcd(result, number);
+    }
+    cout << result << endl;
 }
  
 int main(){

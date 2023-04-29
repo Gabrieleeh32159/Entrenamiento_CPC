@@ -1,3 +1,5 @@
+// time-limit: 2000
+// problem-url: https://vjudge.net/contest/553531#problem/V
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -16,7 +18,17 @@ void barra(){ cout<<"----------------------"<<'\n'; }
  
  
 void solve(){
-    
+    map<int, bool> found;
+    found.insert({2, true});
+    found.insert({3, true});
+    found.insert({4, true});
+    found.insert({5, false});
+    set<int> not_repeated;
+    if (found[1] == false) {
+        cout << "value is false" << endl;
+    } else {
+        cout << "value is null" << endl;
+    }
 }
  
 int main(){

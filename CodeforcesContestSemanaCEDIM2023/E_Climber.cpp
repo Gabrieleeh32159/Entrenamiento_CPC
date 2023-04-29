@@ -1,3 +1,5 @@
+// time-limit: 1000
+// problem-url: https://codeforces.com/group/Wr3hh4fy7t/contest/440894/problem/E
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -16,7 +18,16 @@ void barra(){ cout<<"----------------------"<<'\n'; }
  
  
 void solve(){
-    
+    int n, m; cin >> n >> m;
+    vector<string> walls(n); 
+    int k;
+    cin >> k; 
+    for (int i = 0; i < n; i++) {
+        cin >> walls[i];
+    }
+    for (auto it : walls) {
+        cout << it << endl;
+    }
 }
  
 int main(){
